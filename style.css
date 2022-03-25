@@ -1,0 +1,29 @@
+.project_grid {
+    display: grid;
+
+    background-color: yellow;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 6px;
+    /* grid-template-columns: 200px 200px 500px; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    row-gap: 10px;
+    column-gap: 10px;
+
+    justify-items: stretch; /* 가로 방향 정렬 */
+    align-items: stretch; /* 세로 방향 정렬 */
+}
+
+#clock_area {
+    text-align: center;
+}
+
+.item {
+    /* width: 80px; */
+    height: 80px;
+    border-radius: 6px;
+    background-color: orange;
+    border: 2px solid black;
+}
