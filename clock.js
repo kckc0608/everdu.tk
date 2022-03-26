@@ -1,6 +1,5 @@
-var target = document.querySelector('#clock');
-console.log(target);
-target.innerHTML = "clock";
+var clockTag = document.querySelector('#clock');
+clockTag.innerHTML = "clock";
 
 function updateClock()
 {
@@ -9,7 +8,7 @@ function updateClock()
 	var minute = date.getMinutes();
 	var second = date.getSeconds();
 
-	target.innerHTML = `${hour < 10 ? `0${hour}` : hour}:${minute < 10 ? `0${minute}` : minute}:${second < 10 ? `0${second}` : second}`;
+	clockTag.innerHTML = `${hour < 10 ? `0${hour}` : hour}:${minute < 10 ? `0${minute}` : minute}:${second < 10 ? `0${second}` : second}`;
 }
 
 setInterval(updateClock, 1000);
