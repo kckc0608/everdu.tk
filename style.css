@@ -1,3 +1,36 @@
+#top_title {
+    text-align: center;
+}
+
+.mid_content {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.profile_area {
+    display: flex;
+    align-items: center;
+}
+
+.profile_area_item {
+    display: inline-block;
+    /*align-self: center;*/
+    /*background-color: yellow;*/
+}
+
+.profile_area_item #profile_img {
+    padding: 8px;
+    margin: 6px;
+    width: 70px;
+    align-self: stretch;
+}
+
+.profile_area_info {
+    padding-left: 12px;
+    border-left: 2px solid #000;
+    /* background-color: yellow;*/
+}
+
 .project_grid {
     display: grid;
 
@@ -16,10 +49,6 @@
     align-items: stretch; /* 세로 방향 정렬 */
 }
 
-#clock_area {
-    text-align: center;
-}
-
 .item {
     /* width: 80px; */
     height: 80px;
@@ -30,6 +59,9 @@
     font-size: 16px;
 }
 
-.profilre_area {
-    
+.project_desc {
+    background-color: yellow;
+    min-height: 100px;
+    margin-top: 10px;
+    white-space: pre-line;
 }
