@@ -1,17 +1,28 @@
-var project_desc_area = document.getElementsByClassName('project_desc')[0];
-var project_item_list = document.getElementsByClassName('item');
-console.log(project_desc_area);
-project_desc_area.innerHTML = "hello";
-for (var i = 0; i < project_item_list.length; i++)
+let onClickProjectButton = function(project_id) {
+    project_desc_area.innerHTML = ''; //project_id.getAttribute('id');
+    //alert("content/" + project_id + "_desc.txt");
+    fetch("content/" + project_id + "_desc.txt")
+        .then(function(response) {
+            if (response.ok) {
+                return response.text();
+            }
+            return "no response";
+        })
+        .then(function(data) {
+            project_desc_area.innerHTML += data.toString();
+        });
+}
+
+let project_desc_area = document.getElementsByClassName('project_desc')[0];
+let project_item_list = document.getElementsByClassName('item');
+// project_desc_area.innerHTML = "hello";
+
+for (let i = 0; i < project_item_list.length; i++)
 {
-    var project_item = project_item_list[i];
-    console.log(project_item.innerHTML);
-    var project_item_tag = project_item.getAttribute('id');
-    console.log(project_item_tag);
+    let project_item = project_item_list[i];
+    let project_item_tag = project_item.getAttribute('id');
     project_item.addEventListener('click', function () {
-        //alert("hi");
-        project_desc_area.innerHTML = project_item_tag;
-        project_desc_area.innerHTML += "test";
+        onClickProjectButton(project_item_tag);
     });
 }
 //project_desc_area.innerText = project_item_list.length.toString();
