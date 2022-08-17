@@ -1,9 +1,12 @@
 #top_title {
     text-align: center;
+    display: none;
 }
 
 body {
 	background-color: #F2F2F2;
+    margin: 0px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 	
 a {
@@ -18,10 +21,10 @@ a {
 .profile_area {
     display: flex;
     align-items: center;
-		border: 2px solid #F2DFBB;
+	border: 2px solid #F2DFBB;
     border-radius: 6px;
-		background-color: #F2DFBB;
-		padding: 4px;
+	background-color: #F2DFBB;
+	padding: 4px;
 }
 
 .profile_area_item {
@@ -40,7 +43,7 @@ a {
 .profile_area_info {
     margin-top: 6px;
     padding-left: 12px;
-    border-left: 2px solid #000;
+    border-left: 2px solid #0D0D0D;
     /* background-color: yellow;*/
 }
 

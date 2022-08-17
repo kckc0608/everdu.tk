@@ -2,18 +2,33 @@
 <html>
     <head>
         <title>에버듀</title>
-        <link rel="stylesheet" href="style.css">
         <link rel="favicon" href="res/favicon.ico"/>
         <link rel="shortcut icon" href="res/favicon.ico"/>
+        <link rel="stylesheet" href="style/header.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="에버듀를 소개합니다.">
     </head>
     <body>
-        <div id="top_title">
-            <h1>현재 시간</h1>
-		    <h1 id="clock"></h1>
-		    <script src='script/clock.js'></script>
-        </div>
-        <hr/>
+        <header>
+            <div class="header_logo">
+                <img id="header_logo_img" src="res/profile_trans.png" alt="logo">
+                <h1 id="header_logo_name">에버듀</h1>
+            </div>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="">Project</a></li>
+                    <li><a href="">Github</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Project</a></li>
+                </ul>
+            </nav>
+        </header>
         <div class="mid_content">
             <h2>Profile</h2>
             <div class="profile_area">
@@ -29,7 +44,7 @@
                             </a>
                         </div>
                         <div class="profile_area_info_desc">
-                            <p>내가 만든 서비스가 다른 사람에게 도움이 된다고 느끼는 순간의 뿌듯함이 좋아서 개발합니다.</p>
+                            <p>내가 만든 결과물이 다른 사람에게 도움이 된다고 느끼는 순간의 뿌듯함이 좋아서 개발합니다.</p>
                             <p>
                                 현재 공군으로 계룡대에서 군복무를 하고 있습니다. (21.09.06 ~ 23.06.05)</br>
                                 전역일까지 앞으로 <strong id='military_end_date'>200</strong>일
@@ -44,8 +59,8 @@
                 <h2>Project</h2>
                 <div class="project_grid">
                     <div class="item" id="arpia">마법학교 아르피아</div>
-                    <div class="item" id="everdu">코드 에버듀</div>
-                    <div class="item" id="intro">내 자기소개 페이지</div>
+                    <div class="item" id="everdu">chord.에버듀</div>
+                    <div class="item" id="intro">자기소개 웹사이트</div>
                     <a href="project/ym_clone"><div class="item" id="ymmusic">Youtube Music 클론코딩</div></a>
                     <a href="flask"><div class="item" id="flask">Flask 연습</div></a>
 					<a href="practice/nodejs"><div class="item" id="nodejs">Node JS 연습</div></a>
