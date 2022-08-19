@@ -16,57 +16,49 @@ a {
 .mid_content {
     padding-left: 36px;
     padding-right: 36px;
+    padding-bottom: 36px;
 }
 
-.profile_area {
-    display: flex;
-    align-items: center;
-	border: 2px solid #F2DFBB;
+
+.section_content {
     border-radius: 6px;
 	background-color: #F2DFBB;
-	padding: 4px;
+	padding: 10px;
 }
 
-.profile_area_item {
-    display: inline-block;
-    /*align-self: center;*/
-    /*background-color: yellow;*/
+#profile_section {
+    display: flex;
+    align-items: center;
 }
 
-.profile_area_item #profile_img {
+#profile_img {
     padding: 8px;
     margin: 8px;
     width: 70px;
-    align-self: stretch;
 }
 
-.profile_area_info {
+.profile_content {
     margin-top: 6px;
     padding-left: 12px;
     border-left: 2px solid #0D0D0D;
     /* background-color: yellow;*/
 }
 
-.profile_area_info_name {
+.profile_content_name {
     display: flex;
     align-items: center;
 }
 
-.profile_area_info_desc p{
+.profile_content_desc p {
     margin: 8px 0px;
 }
 
-.project_grid {
+#project_grid {
     display: grid;
-
-    background-color: #F2DFBB;
-    padding: 8px;
-    border: 2px solid #F2DFBB;
-    border-radius: 6px;
+    padding: 10px;
     /* grid-template-columns: 200px 200px 500px; */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-
     row-gap: 10px;
     column-gap: 10px;
 
@@ -75,23 +67,21 @@ a {
 }
 
 .item {
-    height: 80px;
-		line-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 62px;
     border-radius: 6px;
     background-color: #F2CA80;
     border: 2px solid grey;
-    text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 .project_desc {
-    border-radius: 6px;
-    border: 2px solid #F2DFBB;
-    background-color: #F2DFBB;
     min-height: 100px;
-    margin-top: 10px;
+    margin-top: 12px;
     white-space: pre-line;
-    padding: 10px;
-    font-size: 18px;
+    font-size: 16px;
 }

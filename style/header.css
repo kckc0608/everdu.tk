@@ -40,7 +40,6 @@ header {
 
 .header_nav li {
     float: left;
-    overflow: scroll;
 }
 
 .header_nav li a {
