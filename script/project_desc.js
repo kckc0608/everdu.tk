@@ -1,7 +1,6 @@
 let onClickProjectButton = function(project_id) {
-    project_desc_area.innerHTML = ''; //project_id.getAttribute('id');
-    //alert("content/" + project_id + "_desc.txt");
-    fetch("content/" + project_id + "_desc.txt")
+    project_desc_area.innerHTML = '';
+    fetch("content/" + project_id + "_desc.html")
         .then(function(response) {
             if (response.ok) {
                 return response.text();
@@ -15,7 +14,6 @@ let onClickProjectButton = function(project_id) {
 
 let project_desc_area = document.getElementsByClassName('project_desc')[0];
 let project_item_list = document.getElementsByClassName('item');
-// project_desc_area.innerHTML = "hello";
 
 for (let i = 0; i < project_item_list.length; i++)
 {
@@ -25,4 +23,3 @@ for (let i = 0; i < project_item_list.length; i++)
         onClickProjectButton(project_item_tag);
     });
 }
-//project_desc_area.innerText = project_item_list.length.toString();
