@@ -79,6 +79,10 @@ a {
     font-weight: bold;
 }
 
+.item:hover {
+    cursor: pointer;
+}
+
 .project_desc {
     min-height: 100px;
     margin-top: 12px;
