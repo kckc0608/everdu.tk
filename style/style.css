@@ -19,7 +19,6 @@ a {
     padding-bottom: 36px;
 }
 
-
 .section_content {
     border-radius: 6px;
 	background-color: #F2DFBB;
@@ -41,7 +40,6 @@ a {
     margin-top: 6px;
     padding-left: 12px;
     border-left: 2px solid #0D0D0D;
-    /* background-color: yellow;*/
 }
 
 .profile_content_name {
