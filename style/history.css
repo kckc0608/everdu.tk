@@ -28,6 +28,7 @@
     content: "";
     position: absolute;
     border-radius: 25%;
+    background-color: #ff5a2b;
     border: 4px solid #ff5a2b;
     left: -37px;
     top: 37%;
