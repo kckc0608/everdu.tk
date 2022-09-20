@@ -8,6 +8,7 @@ header {
     background-color: #F2F2F2;
     box-shadow: 0px 5px 10px grey;
     z-index: 1000;
+    height: 40px;
 }
 
 .header_logo {

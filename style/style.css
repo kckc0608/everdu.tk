@@ -1,6 +1,27 @@
-#top_title {
-    text-align: center;
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.header_side_button {
+    margin-left: auto;
     display: none;
+}
+
+.header_side_button:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .header_side_button {
+        display: inline-block;
+    }
+    .header_nav {
+        display: none;
+    }
 }
 
 body {
