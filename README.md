@@ -10,7 +10,5 @@
 - html / css / javascript   
 
 ## 특징
-웹 기본 기술을 연습해보고자 순수 html/css/javascript 만을 이용하여
-구현하는 것을 당분간의 목표로 두고 있습니다.
-
-www.everdu.ga 에서 진행중인 결과물을 볼 수 있습니다.
+웹 개발 기본기를 다지고자 html / css / javascript 만으로 구현하였습니다.   
+www.everdu.ga 에서 결과물을 만나 볼 수 있습니다.
