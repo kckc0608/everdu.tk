@@ -7,21 +7,21 @@
 }
 
 .header_side_button {
-    margin-left: auto;
-    display: none;
+  margin-left: auto;
+  display: none;
 }
 
 .header_side_button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
-    .header_side_button {
-        display: inline-block;
-    }
-    .header_nav {
-        display: none;
-    }
+  .header_side_button {
+      display: inline-block;
+  }
+  .header_nav {
+      display: none;
+  }
 }
 
 body {
@@ -32,6 +32,7 @@ body {
 	
 a {
 	text-decoration: none;
+  color: inherit;
 }
 
 .mid_content {
@@ -94,7 +95,7 @@ a {
     border-radius: 6px;
     background-color: #F2CA80;
     border: 2px solid grey;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: bold;
 }
 

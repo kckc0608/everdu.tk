@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="style/history.css">
         <link rel="stylesheet" href="style/animation.css">
+        <link rel="stylesheet" href="style/side_menu.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,13 +17,17 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
         <meta name="description" content="에버듀를 소개합니다.">
+
+        <script src="script/header_side.js"></script>
     </head>
     <body>
         <header>
-            <div class="header_logo">
-                <img id="header_logo_img" src="res/profile_trans.png" alt="logo">
-                <h1 id="header_logo_name">에버듀</h1>
-            </div>
+            <a href="./index.html">
+                <div class="header_logo">
+                    <img id="header_logo_img" src="res/profile_trans.png" alt="logo">
+                    <h1 id="header_logo_name">에버듀</h1>
+                </div>
+            </a>
             <nav class="header_nav">
                 <ul>
                     <li><a href="aboutme">About Me</a></li>
@@ -175,6 +180,14 @@
                     E-mail : kckc0608@naver.com<br>
                 </div>
             </div>
+        </div>
+
+        <div class="side_menu">
+            <div class="side_menu_item"><a href="aboutme">About Me</a></div>
+            <div class="side_menu_item"><a href="">Project</a></div>
+            <div class="side_menu_item"><a href="https://github.com/kckc0608">Github</a></div>
+            <div class="side_menu_item"><a href="https://blog.everdu.ga">Blog</a></div>
+            <div class="side_menu_item"><a href="">Contact</a></div>
         </div>
     </body>
 </html>
