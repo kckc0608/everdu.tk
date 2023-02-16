@@ -1,193 +1,251 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>에버듀</title>
-        <link rel="favicon" href="res/favicon.ico"/>
-        <link rel="shortcut icon" href="res/favicon.ico"/>
-        <link rel="stylesheet" href="style/header.css">
-        <link rel="stylesheet" href="style/style.css">
-        <link rel="stylesheet" href="style/history.css">
-        <link rel="stylesheet" href="style/animation.css">
-        <link rel="stylesheet" href="style/side_menu.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        
-        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
-        <meta name="description" content="에버듀를 소개합니다.">
+  <head>
+    <title>에버듀</title>
+    <link rel="favicon" href="res/favicon.ico" />
+    <link rel="shortcut icon" href="res/favicon.ico" />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/history.css" />
+    <link rel="stylesheet" href="style/animation.css" />
+    <link rel="stylesheet" href="style/side_menu.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
 
-        <script src="script/header_side.js"></script>
-    </head>
-    <body>
-        <header>
-            <a href="./index.html">
-                <div class="header_logo">
-                    <img id="header_logo_img" src="res/profile_trans.png" alt="logo">
-                    <h1 id="header_logo_name">에버듀</h1>
-                </div>
-            </a>
-            <nav class="header_nav">
-                <ul>
-                    <li><a href="aboutme">About Me</a></li>
-                    <li><a href="">Project</a></li>
-                    <li><a href="https://github.com/kckc0608">Github</a></li>
-                    <li><a href="https://blog.everdu.ga">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header_side_button">
-                <span class="material-symbols-outlined">
-                    menu
-                </span>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 user-scalable=no"
+    />
+    <meta name="description" content="에버듀를 소개합니다." />
+
+    <script src="script/header_side.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">
+        <div class="header_logo">
+          <img id="header_logo_img" src="res/profile_trans.png" alt="logo" />
+          <h1 id="header_logo_name">에버듀</h1>
+        </div>
+      </a>
+      <nav class="header_nav">
+        <ul>
+          <li><a href="aboutme">About Me</a></li>
+          <li><a href="">Project</a></li>
+          <li><a href="https://github.com/kckc0608">Github</a></li>
+          <li><a href="https://blog.everdu.ga">Blog</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header_side_button">
+        <span class="material-symbols-outlined"> menu </span>
+      </div>
+    </header>
+    <div class="mid_content">
+      <div class="section">
+        <h2 class="section_title">Profile</h2>
+        <div class="section_content" id="profile_section">
+          <img id="profile_img" src="res/profile_trans.png" />
+          <div class="profile_content">
+            <div class="profile_content_name">
+              <h2 style="margin: 0px">권찬 (Kwon Chan)</h2>
             </div>
-        </header>
-        <div class="mid_content">
-            <div class="section">
-                <h2 class="section_title">Profile</h2>
-                <div class="section_content" id="profile_section">  
-                    <img id="profile_img" src="res/profile_trans.png"/>
-                    <div class="profile_content">
-                        <div class="profile_content_name">
-                            <h2 style="margin: 0px;">권찬 (Kwon Chan)</h2>
-                        </div>
-                        <div class="profile_content_desc">
-                            <p>내가 만든 결과물이 다른 사람에게 도움이 된다고 느껴지는 순간의 뿌듯함이 좋아서 개발합니다.</p>
-                            <p>
-                                현재 계룡대 공군 정보체계관리단에서 전산특기로 군복무를 하고 있습니다. (21.09.06 ~ 23.06.05)<br>
-                                전역일까지 앞으로 <strong id='military_days'>200</strong>일 (<strong id="military_percent">0</strong>%)
-                                <script src='script/calc_date.js'></script>
-                            </p>
-                            <p>홍익대학교 컴퓨터공학과 재학중 (2020.03~)</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="profile_content_desc">
+              <p>
+                내가 만든 결과물이 다른 사람에게 도움이 된다고 느껴지는 순간의
+                뿌듯함이 좋아서 개발합니다.
+              </p>
+              <p>
+                현재 계룡대 공군 정보체계관리단에서 전산특기로 군복무를 하고
+                있습니다. (21.09.06 ~ 23.06.05)<br />
+                전역일까지 앞으로 <strong id="military_days">200</strong>일
+                (<strong id="military_percent">0</strong>%)
+                <script src="script/calc_date.js"></script>
+              </p>
+              <p>홍익대학교 컴퓨터공학과 재학중 (2020.03~)</p>
             </div>
-            <div class="section">
-                <h2 class="section_title">Project</h2>
-                <div class="section_content" id="project_grid">
-                    <div class="item" id="arpia">마법학교 아르피아</div>
-                    <div class="item" id="everdu">chord.에버듀</div>
-                    <div class="item" id="intro">자기소개 웹사이트</div>
-                    <a href="project/ym_clone/"><div class="item" id="ymmusic">Youtube Music<br>클론코딩</div></a>
-                    <a href="flask"><div class="item" id="flask">Flask 연습</div></a>
-					<a href="practice/nodejs"><div class="item" id="nodejs">Node JS 연습</div></a>
-                </div>
-                <div class="section_content project_desc">
-                    <div style="text-align:center;">설명을 보고 싶은 프로젝트를 클릭해보세요.</div>
-                </div>
-                <script src='script/project_desc.js'></script>
-            </div>
-            <div class="section">
-                <h2 class="section_title">Experience</h2>
-                <div class="section_content">
-                    <ul id="history_class">
-                        <li class="year">
-                            <h3>2022</h2>
-                        </li>
-                        <li>
-                            <h4>2022. 9.7 ~ 10.30</h4>
-                            <h4>- 2022 군장병 공개SW 온라인 해커톤 (한국공개소프트웨어협회장상 수상)</h4>
-                            <p>매칭을 통해 만난 해군 병사 한분과 함께 온라인 해커톤에 참가하였습니다.<br>
-                                팀명: 패트와 매드 (Pat & Mat)<br>
-                                <a href="https://github.com/osamhack2022-v2/WEB_MoGoon_PatAndMat">깃허브 레포지토리</a><br>
-                                <a href="https://chinpa.tistory.com/166">해커톤 선발 과정 정리</a><br>
-                                <a href="https://chinpa.tistory.com/category/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%5B2022%5D%20OSAM%20%EC%98%A8%EB%9D%BC%EC%9D%B8%20%ED%95%B4%EC%BB%A4%ED%86%A4">해커톤 진행 과정 정리</a><br>
-                            </p>
-                        </li>
-                        <li>
-                            <h4>2022. 9.4</h4>
-                            <h4>- SUAPC 2022 Summer 29등 </h4>
-                            <p>신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다.
-                                <br>팀명: 응애나아기차니
-                                <br> <a href="https://www.acmicpc.net/contest/spotboard/840">스코어보드</a>
-                            </p>
-                        </li>
-                        <li>
-                            <h4>2022. 8.19 ~ 9.4</h4>
-                            <h4>- [2022 군장병 공개SW 역량강화 교육] 군장병 코딩경진대회 65등 </h4>
-                            <p>국방오픈소스아카데미에서 주최한 코딩경진대회에 참가하였습니다.
-                                <br> <a href="https://career.programmers.co.kr/competitions/2693">리더보드</a>
-                            </p>
-                        </li>
-                        <li>
-                            <h4>2022. 2.26</h4>
-                            <h4>- SUAPC 2022 Winter 35등 </h4>
-                            <p>신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다.
-                                <br>팀명: HONG3
-                                <br> <a href="https://www.acmicpc.net/contest/spotboard/764">스코어보드</a>
-                            </p>
-                        </li>
-                        <li class="year">
-                            <h3>2021</h2>
-                        </li>
-                        <li>
-                            <h4>2021. 9</h4>
-                            <h4>- 공군 병 830기 입대 </h4>
-                        </li>
-                        <li>
-                            <h4>2021. 8.28</h4>
-                            <h4>- SUAPC 2021 Summer 6등 </h4>
-                            <p>신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다.
-                                <br>팀명: 우승못하면2학기휴학함
-                                <br> <a href="https://www.acmicpc.net/contest/spotboard/678">스코어보드</a>
-                            </p>
-                        </li>
-                        <li>
-                            <h4>2021. 2.28</h4>
-                            <h4>- SUAPC 2021 Winter 11등 </h4>
-                            <p>신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다.
-                                <br>팀명: 불건전한 소환사명 123
-                                <br> <a href="https://www.acmicpc.net/contest/spotboard/586">스코어보드</a>
-                            </p>
-                        </li>
-                        <li class="year">
-                            <h3>2020</h2>
-                        </li>
-                        <li>
-                            <h4>2020. 8.15</h4>
-                            <h4>- SUAPC 2020 Summer Div.2 7등 </h4>
-                            <p>신촌 지역 대학생 연합 프로그래밍 대회 Div.2 에서 2명의 팀원과 함께 참가하였습니다.
-                                <br>팀명: 안녕히계세요여러분전이세상의모든굴레와속박을벗어던지고제행복을찾아떠납니다여러분도행복하세요
-                                <br> <a href="https://www.acmicpc.net/contest/spotboard/518">스코어보드</a>
-                            </p>
-                        </li>
-                        <li>
-                            <h4>2020. 7~8</h4>
-                            <h4>- 두손씨앤아이 인턴 </h4>
-                            <p>ERP프로그램 내 주간 재고 현황 메일링 시스템 및 관리 도구 개발</p>
-                        </li>
-                        <li>
-                            <h4>2020. 3</h4>
-                            <h4>- 홍익대학교 알고리즘 동아리 HI-ARC 가입 </h4>
-                        </li>
-                        <li>
-                            <h4>2020. 3</h4>
-                            <h4>- 홍익대학교 공과대학 정보컴퓨터공학부 입학 </h4>
-                        </li>
-                        <!--li>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <h2 class="section_title">Project</h2>
+        <div class="section_content" id="project_grid">
+          <div class="item" id="arpia">마법학교 아르피아</div>
+          <div class="item" id="everdu">chord.에버듀</div>
+          <div class="item" id="intro">자기소개 웹사이트</div>
+          <a href="project/ym_clone/">
+            <div class="item" id="ymmusic">Youtube Music<br />클론코딩</div>
+          </a>
+          <a href="flask"><div class="item" id="flask">Flask 연습</div></a>
+          <a href="practice/nodejs"
+            ><div class="item" id="nodejs">Node JS 연습</div></a
+          >
+        </div>
+        <div class="section_content project_desc">
+          <div style="text-align: center">
+            설명을 보고 싶은 프로젝트를 클릭해보세요.
+          </div>
+        </div>
+        <script src="script/project_desc.js"></script>
+      </div>
+      <div class="section">
+        <h2 class="section_title">Experience</h2>
+        <div class="section_content">
+          <ul id="history_class">
+            <li class="year">
+              <h3>2022</h3>
+            </li>
+            <li>
+              <h4>2022. 9.7 ~ 10.30</h4>
+              <h4>
+                - 2022 군장병 공개SW 온라인 해커톤 (한국공개소프트웨어협회장상
+                수상)
+              </h4>
+              <p>
+                매칭을 통해 만난 해군 병사 한분과 함께 온라인 해커톤에
+                참가하였습니다.<br />
+                팀명: 패트와 매드 (Pat & Mat)<br />
+                <a
+                  href="https://github.com/osamhack2022-v2/WEB_MoGoon_PatAndMat"
+                  >깃허브 레포지토리</a
+                ><br />
+                <a href="https://chinpa.tistory.com/166"
+                  >해커톤 선발 과정 정리</a
+                ><br />
+                <a
+                  href="https://chinpa.tistory.com/category/%ED%8C%80%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%5B2022%5D%20OSAM%20%EC%98%A8%EB%9D%BC%EC%9D%B8%20%ED%95%B4%EC%BB%A4%ED%86%A4"
+                  >해커톤 진행 과정 정리</a
+                ><br />
+              </p>
+            </li>
+            <li>
+              <h4>2022. 9.4</h4>
+              <h4>- SUAPC 2022 Summer 29등</h4>
+              <p>
+                신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께
+                참가하였습니다. <br />팀명: 응애나아기차니 <br />
+                <a href="https://www.acmicpc.net/contest/spotboard/840"
+                  >스코어보드</a
+                >
+              </p>
+            </li>
+            <li>
+              <h4>2022. 8.19 ~ 9.4</h4>
+              <h4>
+                - [2022 군장병 공개SW 역량강화 교육] 군장병 코딩경진대회 65등
+              </h4>
+              <p>
+                국방오픈소스아카데미에서 주최한 코딩경진대회에 참가하였습니다.
+                <br />
+                <a href="https://career.programmers.co.kr/competitions/2693"
+                  >리더보드</a
+                >
+              </p>
+            </li>
+            <li>
+              <h4>2022. 2.26</h4>
+              <h4>- SUAPC 2022 Winter 35등</h4>
+              <p>
+                신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께
+                참가하였습니다. <br />팀명: HONG3 <br />
+                <a href="https://www.acmicpc.net/contest/spotboard/764"
+                  >스코어보드</a
+                >
+              </p>
+            </li>
+            <li class="year">
+              <h3>2021</h3>
+            </li>
+            <li>
+              <h4>2021. 9</h4>
+              <h4>- 공군 병 830기 입대</h4>
+            </li>
+            <li>
+              <h4>2021. 8.28</h4>
+              <h4>- SUAPC 2021 Summer 6등</h4>
+              <p>
+                신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께
+                참가하였습니다. <br />팀명: 우승못하면2학기휴학함 <br />
+                <a href="https://www.acmicpc.net/contest/spotboard/678"
+                  >스코어보드</a
+                >
+              </p>
+            </li>
+            <li>
+              <h4>2021. 2.28</h4>
+              <h4>- SUAPC 2021 Winter 11등</h4>
+              <p>
+                신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께
+                참가하였습니다. <br />팀명: 불건전한 소환사명 123 <br />
+                <a href="https://www.acmicpc.net/contest/spotboard/586"
+                  >스코어보드</a
+                >
+              </p>
+            </li>
+            <li class="year">
+              <h3>2020</h3>
+            </li>
+            <li>
+              <h4>2020. 8.15</h4>
+              <h4>- SUAPC 2020 Summer Div.2 7등</h4>
+              <p>
+                신촌 지역 대학생 연합 프로그래밍 대회 Div.2 에서 2명의 팀원과
+                함께 참가하였습니다. <br />팀명:
+                안녕히계세요여러분전이세상의모든굴레와속박을벗어던지고제행복을찾아떠납니다여러분도행복하세요
+                <br />
+                <a href="https://www.acmicpc.net/contest/spotboard/518"
+                  >스코어보드</a
+                >
+              </p>
+            </li>
+            <li>
+              <h4>2020. 7~8</h4>
+              <h4>- 두손씨앤아이 인턴</h4>
+              <p>
+                ERP프로그램 내 주간 재고 현황 메일링 시스템 및 관리 도구 개발
+              </p>
+            </li>
+            <li>
+              <h4>2020. 3</h4>
+              <h4>- 홍익대학교 알고리즘 동아리 HI-ARC 가입</h4>
+            </li>
+            <li>
+              <h4>2020. 3</h4>
+              <h4>- 홍익대학교 공과대학 정보컴퓨터공학부 입학</h4>
+            </li>
+            <!--li>
                           <h4>2018. 5 전국도시재생지원센터협의회 창립  </h4>
                           <p>전국 광역·기초·현장 도시재생지원 센터가 결의한 협의회 출범 </p>
                           <span></span>
                         </li-->
-                    </ul>
-                </div>
-            </div>
-            <div class="section">
-                <h2 class="section_title">Contact</h2>
-                <div class="section_content">
-                    E-mail : kckc0608@naver.com<br>
-                </div>
-            </div>
+          </ul>
         </div>
+      </div>
+      <div class="section">
+        <h2 class="section_title">Contact</h2>
+        <div class="section_content">E-mail : kckc0608@naver.com<br /></div>
+      </div>
+    </div>
 
-        <div class="side_menu">
-            <div class="side_menu_item"><a href="aboutme">About Me</a></div>
-            <div class="side_menu_item"><a href="">Project</a></div>
-            <div class="side_menu_item"><a href="https://github.com/kckc0608">Github</a></div>
-            <div class="side_menu_item"><a href="https://blog.everdu.ga">Blog</a></div>
-            <div class="side_menu_item"><a href="">Contact</a></div>
-        </div>
-    </body>
+    <div class="side_menu">
+      <div class="side_menu_item"><a href="aboutme">About Me</a></div>
+      <div class="side_menu_item"><a href="">Project</a></div>
+      <div class="side_menu_item">
+        <a href="https://github.com/kckc0608">Github</a>
+      </div>
+      <div class="side_menu_item">
+        <a href="https://blog.everdu.ga">Blog</a>
+      </div>
+      <div class="side_menu_item"><a href="">Contact</a></div>
+    </div>
+  </body>
 </html>
