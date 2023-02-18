@@ -126,3 +126,8 @@ a {
 .project_desc > a {
   text-decoration: underline;
 }
+
+p > a {
+  text-decoration: underline;
+  font-weight: bold;
+}

@@ -40,10 +40,22 @@
       <nav class="header_nav">
         <ul>
           <li><a href="aboutme">About Me</a></li>
-          <li><a href="">Project</a></li>
+          <li>
+            <a
+              href="#"
+              onclick="document.querySelector('#section_project').scrollIntoView(true); event.preventDefault();"
+              >Project</a
+            >
+          </li>
           <li><a href="https://github.com/kckc0608">Github</a></li>
           <li><a href="https://blog.everdu.ga">Blog</a></li>
-          <li><a href="">Contact</a></li>
+          <li>
+            <a
+              href="#"
+              onclick="document.querySelector('#section_contact').scrollIntoView(true); event.preventDefault();"
+              >Contact</a
+            >
+          </li>
         </ul>
       </nav>
       <div class="header_side_button">
@@ -77,7 +89,7 @@
         </div>
       </div>
       <div class="section">
-        <h2 class="section_title">Project</h2>
+        <h2 class="section_title" id="section_project">Project</h2>
         <div class="section_content" id="project_grid">
           <div class="item" id="arpia">마법학교 아르피아</div>
           <div class="item" id="everdu">chord.에버듀</div>
@@ -231,7 +243,7 @@
         </div>
       </div>
       <div class="section">
-        <h2 class="section_title">Contact</h2>
+        <h2 class="section_title" id="section_contact">Contact</h2>
         <div class="section_content">E-mail : kckc0608@naver.com<br /></div>
       </div>
     </div>
