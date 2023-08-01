@@ -131,3 +131,11 @@ p > a {
   text-decoration: underline;
   font-weight: bold;
 }
+
+.link_area {
+  font-weight: bold;
+}
+
+.link_item:hover {
+  text-decoration: underline;
+}
