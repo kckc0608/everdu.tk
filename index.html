@@ -31,35 +31,37 @@
   </head>
   <body>
     <header>
-      <a href="./index.html">
-        <div class="header_logo">
-          <img id="header_logo_img" src="res/profile_trans.png" alt="logo" />
-          <h1 id="header_logo_name">에버듀</h1>
+      <div class="header_content">
+        <a href="./index.html">
+          <div class="header_logo">
+            <img id="header_logo_img" src="res/profile_trans.png" alt="logo" />
+            <h1 id="header_logo_name">에버듀</h1>
+          </div>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="aboutme">About Me</a></li>
+            <li>
+              <a
+                href="#"
+                onclick="document.querySelector('#section_project').scrollIntoView(true); event.preventDefault();"
+                >Project</a
+              >
+            </li>
+            <li><a href="https://github.com/kckc0608">Github</a></li>
+            <li><a href="https://blog.everdu.ga">Blog</a></li>
+            <li>
+              <a
+                href="#"
+                onclick="document.querySelector('#section_contact').scrollIntoView(true); event.preventDefault();"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="header_side_button">
+          <span class="material-symbols-outlined"> menu </span>
         </div>
-      </a>
-      <nav class="header_nav">
-        <ul>
-          <li><a href="aboutme">About Me</a></li>
-          <li>
-            <a
-              href="#"
-              onclick="document.querySelector('#section_project').scrollIntoView(true); event.preventDefault();"
-              >Project</a
-            >
-          </li>
-          <li><a href="https://github.com/kckc0608">Github</a></li>
-          <li><a href="https://blog.everdu.ga">Blog</a></li>
-          <li>
-            <a
-              href="#"
-              onclick="document.querySelector('#section_contact').scrollIntoView(true); event.preventDefault();"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <div class="header_side_button">
-        <span class="material-symbols-outlined"> menu </span>
       </div>
     </header>
     <div class="mid_content">
@@ -114,6 +116,17 @@
           <ul id="history_class">
             <li class="year">
               <h3>2023</h3>
+            </li>
+            <li>
+              <h4>2023. 8.12</h4>
+              <h4>- 제 1회 하이콘 3등</h4>
+              <p>
+                홍익대학교 알고리즘 동아리 HI-ARC 에서 주관한 알고리즘 대회인 하이콘에 개인으로 출전하여 3등을 차지하였습니다.<br>
+                아이디: kckc0608<br>
+                <a href="https://www.acmicpc.net/contest/spotboard/1092"
+                  >스코어보드</a
+                ><br />
+              </p>
             </li>
             <li>
               <h4>2023. 7.30</h4>

@@ -20,6 +20,17 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .header_content {
+    margin: 0 auto;
+    width: 1200px;
+  }
+  .mid_content {
+    margin: 0 auto;
+    width: 1200px;
+  }
+}
+
 body {
   background-color: #f2f2f2;
   margin: 0px;
