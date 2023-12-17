@@ -1,6 +1,32 @@
 {
     "years": [
-
+        {
+            "year": 2021,
+            "experiences": [
+                {
+                    "date": "2021. 8.28",
+                    "title": "- SUAPC 2021 Summer 6등",
+                    "content": [
+                        "신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다. <br />",
+                        "팀명: 우승못하면2학기휴학함 <br />",
+                        "<a href='https://www.acmicpc.net/contest/spotboard/678'>스코어보드</a>"
+                    ]
+                },
+                {
+                    "date": "2021. 2.28",
+                    "title": "- SUAPC 2021 Winter 11등",
+                    "content": [
+                        "신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다. <br />",
+                        "팀명: 불건전한 소환사명 123 <br />",
+                        "<a href='https://www.acmicpc.net/contest/spotboard/586'>스코어보드</a>"
+                    ]
+                },
+                {
+                    "date": "2020. 3",
+                    "title": "- 홍익대학교 공과대학 정보컴퓨터공학부 입학"
+                }
+            ]
+        },
         {
             "year": 2020,
             "experiences": [
