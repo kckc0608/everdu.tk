@@ -35,6 +35,7 @@ body {
   background-color: #f2f2f2;
   margin: 0px;
   font-family: "Noto Sans KR", sans-serif;
+  min-width: 320px;
 }
 
 a {
@@ -64,7 +65,10 @@ a {
   padding: 6px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 570px) {
+  .header_menu {
+    display: none;
+  }
   #profile_section {
     flex-direction: column;
   }
@@ -74,7 +78,7 @@ a {
   }
 }
 
-@media screen and (min-width: 551px) {
+@media screen and (min-width: 571px) {
   .profile_content {
     border-left: 2px solid #0d0d0d;
     padding-left: 12px;
