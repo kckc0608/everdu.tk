@@ -48,12 +48,6 @@ a {
   padding-bottom: 36px;
 }
 
-.section_content {
-  border-radius: 6px;
-  background-color: #f2dfbb;
-  padding: 10px;
-}
-
 #profile_section {
   display: flex;
   align-items: center;
