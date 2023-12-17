@@ -1,4 +1,4 @@
-section:nth-child() {
+section {
     animation: section_load linear 0.8s normal;
 }
 
