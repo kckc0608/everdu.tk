@@ -1,0 +1,18 @@
+section:nth-child() {
+    animation: section_load linear 0.8s normal;
+}
+
+.section_content {
+  border-radius: 6px;
+  background-color: #f2dfbb;
+  padding: 10px;
+}
+
+@keyframes section_load {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
