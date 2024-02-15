@@ -1,6 +1,25 @@
 {
     "years": [
         {
+            "year": 2024,
+            "experiences": [
+                {
+                    "date": "2023. 10.30 ~ 2024. 2.19",
+                    "title": "- 2023-2 GDSC 프로젝트 트랙 수료",
+                    "content": [
+                        "2023년 10월 30일부터 12월 14일까지 코드잇에서 지원받은 강의로 Django 프레임워크를 공부하였습니다.<br />",
+                        "2023년 12월 15일부터 2024년 2월 19일까지 구글 솔루션 챌린지에 제출할 '육아 품앗이 (Pumasi)' 프로젝트를 4인 팀으로 진행하였으며, 백엔드 멤버로서 다음 역할을 수행하였습니다. <br />",
+                        "- 프로젝트 배포 환경 및 CI/CD 구축 (OCI, ubuntu 20.04, nginx, github action) <br />",
+                        "- 유저 인증 (Firebase Auth, Pyrebase4, Firebase Admin SDK) <br />",
+                        "- 돌봄 데이터 CRUD, 실시간 채팅, 커뮤니티 게시글/댓글 CRUD API 개발 (Djnago Rest Framework, Firestore, Pyrebase) <br /><br />",
+                        "<a href='https://github.com/GDSC-Hongik/pumasi-noodle-server'>깃허브 레포지토리</a><br />",
+                        "<a href='https://chinpa.tistory.com/281'>프로젝트 진행 과정 정리</a><br />",
+                        "<a href='http://pumasi.everdu.com'>프로젝트 API 서버</a><br />"
+                    ]
+                }
+            ]
+        },
+        {
             "year": 2023,
             "experiences": [
                 {
