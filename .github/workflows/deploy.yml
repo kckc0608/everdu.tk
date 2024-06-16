@@ -1,0 +1,23 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: ssh connect
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.HOST }}
+        passphrase: ${{ secrets.PASSPHRASE }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        key: ${{ secrets.KEY }}
+        script: |
+          cd html_link/introduce
+          git pull
+        
+      
+    
