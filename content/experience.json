@@ -4,6 +4,21 @@
             "year": 2024,
             "experiences": [
                 {
+                    "date": "2024. 3.4 ~ 2024. 8.2",
+                    "title": "- 신촌 연합 창업 동아리 CEOS 19기 BE 파트",
+                    "content": [
+                        "신촌지역 대학생 연합 IT 창어 동아리 CEOS에서 BE 파트로 참여했습니다. <br />",
+                        "8주간 스프링과 시큐리티, 도커, CI/CD, AWS 에 대해 공부하면서 에브리타임 서버를 클론코딩 하였고, 서로 코드리뷰를 남기며 함께 학습했습니다. <br />",
+                        "스터디 이후 기획자, 디자이너, FE, BE 로 이루어진 7~8명 인원의 팀으로 실제 사업성있는 프로젝트를 진행하였습니다. <br />",
+                        "스터디를 진행했던 깃허브, 프로젝트 결과 URL은 아래와 같습니다. (프로젝트 깃허브는 private이라 링크가 없습니다) <br /><br />",
+                        "<a href='https://github.com/kckc0608/spring-everytime-19th'>스터디 깃허브 레포지토리</a><br />",
+                        "<a href='https://github.com/CEOS-Developers/spring-everytime-19th/pulls?q=is%3Apr+is%3Aclosed'>스터디 PR 코드리뷰</a><br />",
+                        "<a href='https://www.instagram.com/p/C-dB-VnvlNK/?img_index=1'>프로젝트 소개 인스타</a><br />",
+                        "<a href='https://azito.kr/'>프로젝트 배포 URL (국내 유일 지하아이돌 겐바 예매 플랫폼)</a><br />",
+                        "<a href='https://chinpa.tistory.com/category/%EC%9E%90%EA%B8%B0%EA%B3%84%EB%B0%9C/%EB%8F%99%EC%95%84%EB%A6%AC'>CEOS 활동 회고</a><br />"
+                    ]
+                },
+                {
                     "date": "2024. 2.19 ~ 2024. 5.31",
                     "title": "- 2024-1 HI-ARC 기초 스터디 스터디장",
                     "content": [
