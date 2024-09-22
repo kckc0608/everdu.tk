@@ -1,229 +1,246 @@
 {
-    "years": [
+  "years": [
+    {
+      "year": 2024,
+      "experiences": [
         {
-            "year": 2024,
-            "experiences": [
-                {
-                    "date": "2024. 9.21",
-                    "title": "- 2024 HI-CON 홍익대학교 프로그래밍 경진대회 4등",
-                    "content": [
-                        "홍익대학교 프로그래밍 경진대회에 개인으로 참가하여 4등으로 은상을 수상했습니다. <br />",
-                        "닉네임: 에버듀<br />",
-                        "<a href='https://www.acmicpc.net/contest/spotboard/1355'>스코어보드</a><br />"
-                    ]
-                },
-                {
-                    "date": "2024. 3.4 ~ 2024. 8.2",
-                    "title": "- 신촌 연합 창업 동아리 CEOS 19기 BE 파트",
-                    "content": [
-                        "신촌지역 대학생 연합 IT 창어 동아리 CEOS에서 BE 파트로 참여했습니다. <br />",
-                        "8주간 스프링과 시큐리티, 도커, CI/CD, AWS 에 대해 공부하면서 에브리타임 서버를 클론코딩 하였고, 서로 코드리뷰를 남기며 함께 학습했습니다. <br />",
-                        "스터디 이후 기획자, 디자이너, FE, BE 로 이루어진 7~8명 인원의 팀으로 실제 사업성있는 프로젝트를 진행하였습니다. <br />",
-                        "스터디를 진행했던 깃허브, 프로젝트 결과 URL은 아래와 같습니다. (프로젝트 깃허브는 private이라 링크가 없습니다) <br /><br />",
-                        "<a href='https://github.com/kckc0608/spring-everytime-19th'>스터디 깃허브 레포지토리</a><br />",
-                        "<a href='https://github.com/CEOS-Developers/spring-everytime-19th/pulls?q=is%3Apr+is%3Aclosed'>스터디 PR 코드리뷰</a><br />",
-                        "<a href='https://www.instagram.com/p/C-dB-VnvlNK/?img_index=1'>프로젝트 소개 인스타</a><br />",
-                        "<a href='https://azito.kr/'>프로젝트 배포 URL (국내 유일 지하아이돌 겐바 예매 플랫폼)</a><br />",
-                        "<a href='https://chinpa.tistory.com/category/%EC%9E%90%EA%B8%B0%EA%B3%84%EB%B0%9C/%EB%8F%99%EC%95%84%EB%A6%AC'>CEOS 활동 회고</a><br />"
-                    ]
-                },
-                {
-                    "date": "2024. 2.19 ~ 2024. 5.31",
-                    "title": "- 2024-1 HI-ARC 기초 스터디 스터디장",
-                    "content": [
-                        "2024년 1학기에 교내 알고리즘 학회 HI-ARC에서 기초 스터디 스터디장을 맡았습니다. <br />",
-                        "1학년 신입생을 대상으로 기본적인 파이썬 문법과 이를 활용한 기초적인 알고리즘을 강의하였습니다. <br />",
-                        "강의록과 강의 영상은 아래 깃허브 레포지토리 링크를 통해 확인하실 수 있습니다. <br />",
-                        "<a href='https://github.com/kckc0608/hiarc-2024-1-basic-study'>깃허브 레포지토리</a><br />"
-                    ]
-                },
-                {
-                    "date": "2023. 10.30 ~ 2024. 2.19",
-                    "title": "- 2023-2 GDSC 프로젝트 트랙 수료",
-                    "content": [
-                        "2023년 10월 30일부터 12월 14일까지 코드잇에서 지원받은 강의로 Django 프레임워크를 공부하였습니다.<br />",
-                        "2023년 12월 15일부터 2024년 2월 19일까지 구글 솔루션 챌린지에 제출할 '육아 품앗이 (Pumasi)' 프로젝트를 4인 팀으로 진행하였으며, 백엔드 멤버로서 다음 역할을 수행하였습니다. <br />",
-                        "- 프로젝트 배포 환경 및 CI/CD 구축 (OCI, ubuntu 20.04, nginx, github action) <br />",
-                        "- 유저 인증 (Firebase Auth, Pyrebase4, Firebase Admin SDK) <br />",
-                        "- 돌봄 데이터 CRUD, 실시간 채팅, 커뮤니티 게시글/댓글 CRUD API 개발 (Djnago Rest Framework, Firestore, Pyrebase) <br /><br />",
-                        "<a href='https://github.com/GDSC-Hongik/pumasi-noodle-server'>깃허브 레포지토리</a><br />",
-                        "<a href='https://chinpa.tistory.com/281'>프로젝트 진행 과정 정리</a><br />",
-                        "<a href='http://pumasi.everdu.com'>프로젝트 API 서버</a><br />"
-                    ]
-                },
-                {
-                    "date": "2024. 2.17",
-                    "title": "- SUAPC 2024 Winter 18등",
-                    "content": [
-                        "신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다. <br />",
-                        "팀명: 소년가장 <br />",
-                        "<a href='https://www.acmicpc.net/contest/spotboard/1237'>스코어보드</a>"
-                    ]
-                }
-            ]
+          "date": "2024. 8.23 ~ now",
+          "title": "- 2024-2 HI-ARC 초급 스터디 스터디장",
+          "content": [
+            "홍익대학교 알고리즘 학회 HI-ARC에서 알고리즘을 입문하는 분들을 대상으로 스터디를 진행하고 있습니다. <br />",
+            "브루트포스, 백트래킹, 이분탐색, 그래프 탐색, 최단 경로 등 다양한 알고리즘을 주제로 스터디를 진행합니다. <br />",
+            "강의록과 강의 영상은 아래 깃허브 레포지토리 링크를 통해 확인하실 수 있습니다. <br />",
+            "<a href='https://github.com/kckc0608/hiarc-2024-2-algorithm-study'>깃허브 레포지토리</a><br />"
+          ]
         },
         {
-            "year": 2023,
-            "experiences": [
-                {
-                    "date": "2023. 11.24",
-                    "title": "- The 2023 ICPC Asia Seoul Regional Contest (본선) 65등",
-                    "content": [
-                        "국제 대학생 프로그래밍 대회인 ICPC 서울 지역 본선에서 74팀 중 65등을 차지하였습니다.<br />",
-                        "팀명 : Last Register<br />",
-                        "<a href='http://static.icpckorea.net/2023/regional/scoreboard/'>스코어보드</a><br />"
-                    ]
-                },
-                {
-                    "date": "2023. 10.21",
-                    "title": "- 2023 ICPC Seoul Regional First Round (예선) 98등",
-                    "content": [
-                        "국제 대학생 프로그래밍 대회인 ICPC 서울 지역 예선에서 329팀 중 98등을 차지하여 본선에 진출하였습니다.<br />",
-                        "팀명 : Last Register<br />",
-                        "<a href='http://static.icpckorea.net/2023/first_round/scoreboard/'>스코어보드</a><br />"
-                    ]
-                },
-                {
-                    "date": "2023. 8.12",
-                    "title": "- 제 1회 하이콘 3등",
-                    "content": [
-                        "홍익대학교 알고리즘 동아리 HI-ARC 에서 주관한 알고리즘 대회인 하이콘에 개인으로 출전하여 3등을 차지하였습니다.<br />",
-                        "아이디: kckc0608<br />",
-                        "<a href='https://www.acmicpc.net/contest/spotboard/1092'>스코어보드</a><br />"
-                    ]
-                },
-                {
-                    "date": "2023. 7.30",
-                    "title": "- 코드 악보 공유 플랫폼, 코드 에버듀 출시",
-                    "content": [
-                        "나만의 코드 악보를 공유할 수 있는 플랫폼을 만들어 구글 플레이스토어에 출시하였습니다.<br />",
-                        "<a href='https://play.google.com/store/apps/details?id=com.everdu.chord_everdu'>플레이스토어에서 다운받기</a>"
-                    ]
-                },
-                {
-                    "date": "2023. 6.5",
-                    "title": "- 공군 병 830기 병장 만기 전역 (공군 정보체계관리단, 2021.09.06 ~ 2023.06.05)",
-                    "content": [
-                        "공군 정보체계관리단에서 군 내 네트워크 장비 관제 및 관리, 사용자 지원 업무를 하였습니다."
-                    ]
-                },
-                {
-                    "date": "2023. 2.25",
-                    "title": "- SUAPC 2023 Winter 19등",
-                    "content": [
-                        "신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다.<br />",
-                        "팀명: 릵쥵벍듉톩렑롦<br />",
-                        "<a href='https://www.acmicpc.net/contest/spotboard/950'>스코어보드</a><br />"
-                    ]
-                },
-                {
-                    "date": "2023. 1.6 ~ 1.8 / 1.22",
-                    "title": "- 체계단 제 1회 보라매컵 예선 8등 / 본선 4등",
-                    "content": [
-                        "정보체계관리단에서 IT 동아리 행사로 주최한 보라매컵 대회에서 예선 8등으로 본선에 진출하였고, 본선에서 4등을 차지하여 가점을 받았습니다.<br />",
-                        "닉네임: 리주버두<br />",
-                        "<a href='https://www.acmicpc.net/contest/board/923'>예선 스코어보드</a><br />",
-                        "<a href='https://www.acmicpc.net/contest/board/924'>본선 스코어보드</a>"
-                    ]
-                }
-            ]
+          "date": "2024. 8.13 ~ now",
+          "title": "- 2024-2 GDSC Hongik 초급 백엔드 멘토",
+          "content": [
+            "홍익대학교 개발 학회 GDSC에서 스프링을 입문하는 분들을 대상으로 스터디를 진행하고 있습니다. <br />",
+            "스프링과 JPA의 기본적인 개념을 소개하고 8주간 토이 프로젝트를 만드는 방향으로 진행합니다. <br />",
+            "강의록과 강의 영상은 아래 깃허브 레포지토리 링크를 통해 확인하실 수 있습니다. <br />",
+            "<a href='https://github.com/kckc0608/gdsc-2024-2-backend-study'>깃허브 레포지토리</a><br />",
+            "<a href='https://github.com/kckc0608/gdsc-2024-2-backend-study-hw'>과제 예시 레포지토리</a><br />"
+          ]
         },
         {
-            "year": 2022,
-            "experiences": [
-                {
-                    "date": "2022. 9.7 ~ 10.30",
-                    "title": "- 2022 군장병 공개SW 온라인 해커톤 (한국공개소프트웨어협회장상 수상)",
-                    "content": [
-                        "매칭을 통해 만난 해군 병사 한분과 함께 온라인 해커톤에 참가하였습니다. <br />",
-                        "팀명: 패트와 매드 (Pat & Mat)<br />",
-                        "<a href='https://github.com/osamhack2022-v2/WEB_MoGoon_PatAndMat'>깃허브 레포지토리</a><br />",
-                        "<a href='https://chinpa.tistory.com/166'>해커톤 선발 과정 정리</a><br />",
-                        "<a href='https://chinpa.tistory.com/170'>해커톤 진행 과정 정리</a><br />"
-                    ]
-                },
-                {
-                    "date": "2022. 9.4",
-                    "title": "- SUAPC 2022 Summer 29등",
-                    "content": [
-                        "신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다. <br />",
-                        "팀명: 응애나아기차니 <br />",
-                        "<a href='https://www.acmicpc.net/contest/spotboard/840'>스코어보드</a>"
-                    ]
-                },
-                {
-                    "date": "2022. 8.19 ~ 9.4",
-                    "title": "- [2022 군장병 공개SW 역량강화 교육] 군장병 코딩경진대회 65등",
-                    "content": [
-                        "국방오픈소스아카데미에서 주최한 코딩경진대회에 참가하였습니다.<br />",
-                        "<a href='https://career.programmers.co.kr/competitions/2693'>리더보드</a>"
-                    ]
-                },
-                {
-                    "date": "2022. 2.26",
-                    "title": "- SUAPC 2022 Winter 35등",
-                    "content": [
-                        "신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다.<br />",
-                        "팀명: HONG3 <br />",
-                        "<a href='https://www.acmicpc.net/contest/spotboard/764'>스코어보드</a>"
-                    ]
-                }
-            ]
+          "date": "2024. 9.21",
+          "title": "- 2024 HI-CON 홍익대학교 프로그래밍 경진대회 4등",
+          "content": [
+            "홍익대학교 프로그래밍 경진대회에 개인으로 참가하여 4등으로 은상을 수상했습니다. <br />",
+            "닉네임: 에버듀<br />",
+            "<a href='https://www.acmicpc.net/contest/spotboard/1355'>스코어보드(추가예정)</a><br />"
+          ]
         },
         {
-            "year": 2021,
-            "experiences": [
-                {
-                    "date": "2021. 8.28",
-                    "title": "- SUAPC 2021 Summer 6등",
-                    "content": [
-                        "신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다. <br />",
-                        "팀명: 우승못하면2학기휴학함 <br />",
-                        "<a href='https://www.acmicpc.net/contest/spotboard/678'>스코어보드</a>"
-                    ]
-                },
-                {
-                    "date": "2021. 2.28",
-                    "title": "- SUAPC 2021 Winter 11등",
-                    "content": [
-                        "신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다. <br />",
-                        "팀명: 불건전한 소환사명 123 <br />",
-                        "<a href='https://www.acmicpc.net/contest/spotboard/586'>스코어보드</a>"
-                    ]
-                },
-                {
-                    "date": "2020. 3",
-                    "title": "- 홍익대학교 공과대학 정보컴퓨터공학부 입학"
-                }
-            ]
+          "date": "2024. 3.4 ~ 2024. 8.2",
+          "title": "- 신촌 연합 창업 동아리 CEOS 19기 BE 파트",
+          "content": [
+            "신촌지역 대학생 연합 IT 창어 동아리 CEOS에서 BE 파트로 참여했습니다. <br />",
+            "8주간 스프링과 시큐리티, 도커, CI/CD, AWS 에 대해 공부하면서 에브리타임 서버를 클론코딩 하였고, 서로 코드리뷰를 남기며 함께 학습했습니다. <br />",
+            "스터디 이후 기획자, 디자이너, FE, BE 로 이루어진 7~8명 인원의 팀으로 실제 사업성있는 프로젝트를 진행하였습니다. <br />",
+            "스터디를 진행했던 깃허브, 프로젝트 결과 URL은 아래와 같습니다. (프로젝트 깃허브는 private이라 링크가 없습니다) <br /><br />",
+            "<a href='https://github.com/kckc0608/spring-everytime-19th'>스터디 깃허브 레포지토리</a><br />",
+            "<a href='https://github.com/CEOS-Developers/spring-everytime-19th/pulls?q=is%3Apr+is%3Aclosed'>스터디 PR 코드리뷰</a><br />",
+            "<a href='https://www.instagram.com/p/C-dB-VnvlNK/?img_index=1'>프로젝트 소개 인스타</a><br />",
+            "<a href='https://azito.kr/'>프로젝트 배포 URL (국내 유일 지하아이돌 겐바 예매 플랫폼)</a><br />",
+            "<a href='https://chinpa.tistory.com/category/%EC%9E%90%EA%B8%B0%EA%B3%84%EB%B0%9C/%EB%8F%99%EC%95%84%EB%A6%AC'>CEOS 활동 회고</a><br />"
+          ]
         },
         {
-            "year": 2020,
-            "experiences": [
-                {
-                    "date": "2020. 8.15",
-                    "title": "- SUAPC 2020 Summer Div.2 7등",
-                    "content": [
-                        "신촌 지역 대학생 연합 프로그래밍 대회 Div.2 에서 2명의 팀원과 함께 참가하였습니다. <br />",
-                        "팀명: 안녕히계세요여러분전이세상의모든굴레와속박을벗어던지고제행복을찾아떠납니다",
-                        "여러분도행복하세요 <br />",
-                        "<a href='https://www.acmicpc.net/contest/spotboard/518'>",
-                            "스코어보드",
-                        "</a>"
-                    ]
-                },
-                {
-                    "date": "2020. 7~8",
-                    "title": "- 두손씨앤아이 인턴",
-                    "content": [
-                        "ERP프로그램 내 주간 재고 현황 메일링 시스템 및 관리 도구 개발"
-                    ]
-                },
-                {
-                    "date": "2020. 3",
-                    "title": "- 홍익대학교 공과대학 정보컴퓨터공학부 입학"
-                }
-            ]
+          "date": "2024. 2.19 ~ 2024. 5.31",
+          "title": "- 2024-1 HI-ARC 기초 스터디 스터디장",
+          "content": [
+            "2024년 1학기에 교내 알고리즘 학회 HI-ARC에서 기초 스터디 스터디장을 맡았습니다. <br />",
+            "1학년 신입생을 대상으로 기본적인 파이썬 문법과 이를 활용한 기초적인 알고리즘을 강의하였습니다. <br />",
+            "강의록과 강의 영상은 아래 깃허브 레포지토리 링크를 통해 확인하실 수 있습니다. <br />",
+            "<a href='https://github.com/kckc0608/hiarc-2024-1-basic-study'>깃허브 레포지토리</a><br />"
+          ]
+        },
+        {
+          "date": "2023. 10.30 ~ 2024. 2.19",
+          "title": "- 2023-2 GDSC 프로젝트 트랙 수료",
+          "content": [
+            "2023년 10월 30일부터 12월 14일까지 코드잇에서 지원받은 강의로 Django 프레임워크를 공부하였습니다.<br />",
+            "2023년 12월 15일부터 2024년 2월 19일까지 구글 솔루션 챌린지에 제출할 '육아 품앗이 (Pumasi)' 프로젝트를 4인 팀으로 진행하였으며, 백엔드 멤버로서 다음 역할을 수행하였습니다. <br />",
+            "- 프로젝트 배포 환경 및 CI/CD 구축 (OCI, ubuntu 20.04, nginx, github action) <br />",
+            "- 유저 인증 (Firebase Auth, Pyrebase4, Firebase Admin SDK) <br />",
+            "- 돌봄 데이터 CRUD, 실시간 채팅, 커뮤니티 게시글/댓글 CRUD API 개발 (Djnago Rest Framework, Firestore, Pyrebase) <br /><br />",
+            "<a href='https://github.com/GDSC-Hongik/pumasi-noodle-server'>깃허브 레포지토리</a><br />",
+            "<a href='https://chinpa.tistory.com/281'>프로젝트 진행 과정 정리</a><br />",
+            "<a href='http://pumasi.everdu.com'>프로젝트 API 서버</a><br />"
+          ]
+        },
+        {
+          "date": "2024. 2.17",
+          "title": "- SUAPC 2024 Winter 18등",
+          "content": [
+            "신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다. <br />",
+            "팀명: 소년가장 <br />",
+            "<a href='https://www.acmicpc.net/contest/spotboard/1237'>스코어보드</a>"
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "year": 2023,
+      "experiences": [
+        {
+          "date": "2023. 11.24",
+          "title": "- The 2023 ICPC Asia Seoul Regional Contest (본선) 65등",
+          "content": [
+            "국제 대학생 프로그래밍 대회인 ICPC 서울 지역 본선에서 74팀 중 65등을 차지하였습니다.<br />",
+            "팀명 : Last Register<br />",
+            "<a href='http://static.icpckorea.net/2023/regional/scoreboard/'>스코어보드</a><br />"
+          ]
+        },
+        {
+          "date": "2023. 10.21",
+          "title": "- 2023 ICPC Seoul Regional First Round (예선) 98등",
+          "content": [
+            "국제 대학생 프로그래밍 대회인 ICPC 서울 지역 예선에서 329팀 중 98등을 차지하여 본선에 진출하였습니다.<br />",
+            "팀명 : Last Register<br />",
+            "<a href='http://static.icpckorea.net/2023/first_round/scoreboard/'>스코어보드</a><br />"
+          ]
+        },
+        {
+          "date": "2023. 8.12",
+          "title": "- 제 1회 하이콘 3등",
+          "content": [
+            "홍익대학교 알고리즘 동아리 HI-ARC 에서 주관한 알고리즘 대회인 하이콘에 개인으로 출전하여 3등을 차지하였습니다.<br />",
+            "아이디: kckc0608<br />",
+            "<a href='https://www.acmicpc.net/contest/spotboard/1092'>스코어보드</a><br />"
+          ]
+        },
+        {
+          "date": "2023. 7.30",
+          "title": "- 코드 악보 공유 플랫폼, 코드 에버듀 출시",
+          "content": [
+            "나만의 코드 악보를 공유할 수 있는 플랫폼을 만들어 구글 플레이스토어에 출시하였습니다.<br />",
+            "<a href='https://play.google.com/store/apps/details?id=com.everdu.chord_everdu'>플레이스토어에서 다운받기</a>"
+          ]
+        },
+        {
+          "date": "2023. 6.5",
+          "title": "- 공군 병 830기 병장 만기 전역 (공군 정보체계관리단, 2021.09.06 ~ 2023.06.05)",
+          "content": [
+            "공군 정보체계관리단에서 군 내 네트워크 장비 관제 및 관리, 사용자 지원 업무를 하였습니다."
+          ]
+        },
+        {
+          "date": "2023. 2.25",
+          "title": "- SUAPC 2023 Winter 19등",
+          "content": [
+            "신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다.<br />",
+            "팀명: 릵쥵벍듉톩렑롦<br />",
+            "<a href='https://www.acmicpc.net/contest/spotboard/950'>스코어보드</a><br />"
+          ]
+        },
+        {
+          "date": "2023. 1.6 ~ 1.8 / 1.22",
+          "title": "- 체계단 제 1회 보라매컵 예선 8등 / 본선 4등",
+          "content": [
+            "정보체계관리단에서 IT 동아리 행사로 주최한 보라매컵 대회에서 예선 8등으로 본선에 진출하였고, 본선에서 4등을 차지하여 가점을 받았습니다.<br />",
+            "닉네임: 리주버두<br />",
+            "<a href='https://www.acmicpc.net/contest/board/923'>예선 스코어보드</a><br />",
+            "<a href='https://www.acmicpc.net/contest/board/924'>본선 스코어보드</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "experiences": [
+        {
+          "date": "2022. 9.7 ~ 10.30",
+          "title": "- 2022 군장병 공개SW 온라인 해커톤 (한국공개소프트웨어협회장상 수상)",
+          "content": [
+            "매칭을 통해 만난 해군 병사 한분과 함께 온라인 해커톤에 참가하였습니다. <br />",
+            "팀명: 패트와 매드 (Pat & Mat)<br />",
+            "<a href='https://github.com/osamhack2022-v2/WEB_MoGoon_PatAndMat'>깃허브 레포지토리</a><br />",
+            "<a href='https://chinpa.tistory.com/166'>해커톤 선발 과정 정리</a><br />",
+            "<a href='https://chinpa.tistory.com/170'>해커톤 진행 과정 정리</a><br />"
+          ]
+        },
+        {
+          "date": "2022. 9.4",
+          "title": "- SUAPC 2022 Summer 29등",
+          "content": [
+            "신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다. <br />",
+            "팀명: 응애나아기차니 <br />",
+            "<a href='https://www.acmicpc.net/contest/spotboard/840'>스코어보드</a>"
+          ]
+        },
+        {
+          "date": "2022. 8.19 ~ 9.4",
+          "title": "- [2022 군장병 공개SW 역량강화 교육] 군장병 코딩경진대회 65등",
+          "content": [
+            "국방오픈소스아카데미에서 주최한 코딩경진대회에 참가하였습니다.<br />",
+            "<a href='https://career.programmers.co.kr/competitions/2693'>리더보드</a>"
+          ]
+        },
+        {
+          "date": "2022. 2.26",
+          "title": "- SUAPC 2022 Winter 35등",
+          "content": [
+            "신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다.<br />",
+            "팀명: HONG3 <br />",
+            "<a href='https://www.acmicpc.net/contest/spotboard/764'>스코어보드</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "experiences": [
+        {
+          "date": "2021. 8.28",
+          "title": "- SUAPC 2021 Summer 6등",
+          "content": [
+            "신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다. <br />",
+            "팀명: 우승못하면2학기휴학함 <br />",
+            "<a href='https://www.acmicpc.net/contest/spotboard/678'>스코어보드</a>"
+          ]
+        },
+        {
+          "date": "2021. 2.28",
+          "title": "- SUAPC 2021 Winter 11등",
+          "content": [
+            "신촌 지역 대학생 연합 프로그래밍 대회에서 2명의 팀원과 함께 참가하였습니다. <br />",
+            "팀명: 불건전한 소환사명 123 <br />",
+            "<a href='https://www.acmicpc.net/contest/spotboard/586'>스코어보드</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "experiences": [
+        {
+          "date": "2020. 8.15",
+          "title": "- SUAPC 2020 Summer Div.2 7등",
+          "content": [
+            "신촌 지역 대학생 연합 프로그래밍 대회 Div.2 에서 2명의 팀원과 함께 참가하였습니다. <br />",
+            "팀명: 안녕히계세요여러분전이세상의모든굴레와속박을벗어던지고제행복을찾아떠납니다",
+            "여러분도행복하세요 <br />",
+            "<a href='https://www.acmicpc.net/contest/spotboard/518'>",
+            "스코어보드",
+            "</a>"
+          ]
+        },
+        {
+          "date": "2020. 7~8",
+          "title": "- 두손씨앤아이 인턴",
+          "content": [
+            "ERP프로그램 내 주간 재고 현황 메일링 시스템 및 관리 도구 개발"
+          ]
+        },
+        {
+          "date": "2020. 3",
+          "title": "- 홍익대학교 공과대학 정보컴퓨터공학부 입학"
+        }
+      ]
+    }
+  ]
 }
