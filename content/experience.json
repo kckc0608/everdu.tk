@@ -4,7 +4,16 @@
       "year": 2024,
       "experiences": [
         {
-          "date": "2024. 8.23 ~ now",
+          "date": "2024. 12.15 ~ now",
+          "title": "- 밴드 동아리 (큰소리) 웹 사이트 BE",
+          "content": [
+            "컴퓨터공학과 밴드 소모임 '큰소리'에서 사용할 웹 페이지 제작에 기획, BE로 참여하고 있습니다. <br />",
+            "<a href='https://github.com/KeunSori'>깃허브</a><br />",
+            "<a href='https://chinpa.tistory.com/category/%ED%8C%80%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%5B2025%5D%20%ED%81%B0%EC%86%8C%EB%A6%AC%20%EC%9B%B9%20%ED%8E%98%EC%9D%B4%EC%A7%80'>프로젝트 진행 과정</a><br />"
+          ]
+        },
+        {
+          "date": "2024. 8.23 ~ 2024. 12.31",
           "title": "- 2024-2 HI-ARC 초급 스터디 스터디장",
           "content": [
             "홍익대학교 알고리즘 학회 HI-ARC에서 알고리즘을 입문하는 분들을 대상으로 스터디를 진행하고 있습니다. <br />",
@@ -14,7 +23,7 @@
           ]
         },
         {
-          "date": "2024. 8.13 ~ now",
+          "date": "2024. 8.13 ~ 2024. 12.12",
           "title": "- 2024-2 GDSC Hongik 초급 백엔드 멘토",
           "content": [
             "홍익대학교 개발 학회 GDSC에서 스프링을 입문하는 분들을 대상으로 스터디를 진행하고 있습니다. <br />",
